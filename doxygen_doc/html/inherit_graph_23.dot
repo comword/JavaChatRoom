@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="org.gtdev.dchat.Parameters\lParser.arg_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classorg_1_1gtdev_1_1dchat_1_1ParametersParser_1_1arg__handler.html",tooltip="This is flag handler class to define a function to be called. "];
+}

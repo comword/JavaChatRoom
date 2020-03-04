@@ -1,0 +1,24 @@
+digraph "org.gtdev.dchat.network.ConnMgr"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="org.gtdev.dchat.network.\lConnMgr",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" Instance" ,fontname="Helvetica"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" selfType" ,fontname="Helvetica"];
+  Node2 [label="org.gtdev.dchat.network.\lConnMgr.Connection",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classorg_1_1gtdev_1_1dchat_1_1network_1_1ConnMgr_1_1Connection.html"];
+  Node3 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" seqFactory" ,fontname="Helvetica"];
+  Node3 [label="AtomicInteger",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mWaitFlagArr" ,fontname="Helvetica"];
+  Node4 [label="CopyOnWriteArrayList\l\< Integer \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node5 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" cmdHistory" ,fontname="Helvetica"];
+  Node5 [label="ArrayList\< String \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node6 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" PT" ,fontname="Helvetica"];
+  Node6 [label="org.gtdev.dchat.network.\lConnMgr.Connection.PeerType",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$enumorg_1_1gtdev_1_1dchat_1_1network_1_1ConnMgr_1_1Connection_1_1PeerType.html"];
+  Node7 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" s" ,fontname="Helvetica"];
+  Node7 [label="Socket",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node8 -> Node2 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" mReceivePackQueue" ,fontname="Helvetica"];
+  Node8 [label="CopyOnWriteArrayList\l\< org.gtdev.dchat.network.Net\lPack \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" PeerList" ,fontname="Helvetica"];
+  Node9 [label="ConcurrentHashMap\<\l String, org.gtdev.dchat.network.\lConnMgr.Connection \>",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+}

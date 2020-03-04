@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['main',['main',['../classorg_1_1gtdev_1_1dchat_1_1client_1_1ClientLauncher.html#ae88213e770266b835cd3a3428152f183',1,'org.gtdev.dchat.client.ClientLauncher.main()'],['../classorg_1_1gtdev_1_1dchat_1_1server_1_1ServerLauncher.html#a9d311a97989ff5421513159999f70ba9',1,'org.gtdev.dchat.server.ServerLauncher.main()']]],
+  ['mainui',['MainUI',['../classorg_1_1gtdev_1_1dchat_1_1client_1_1MainUI.html',1,'org.gtdev.dchat.client.MainUI'],['../classorg_1_1gtdev_1_1dchat_1_1client_1_1MainUI.html#a48749432385288c5a851940f36f78238',1,'org.gtdev.dchat.client.MainUI.MainUI()']]],
+  ['mainui_2ejava',['MainUI.java',['../MainUI_8java.html',1,'']]],
+  ['makeconnection',['makeConnection',['../classorg_1_1gtdev_1_1dchat_1_1network_1_1ConnMgr.html#ae78b2b64f55c6da4d5ea50e95848eb66',1,'org::gtdev::dchat::network::ConnMgr']]],
+  ['makeserversock',['makeServerSock',['../classorg_1_1gtdev_1_1dchat_1_1network_1_1ConnMgr.html#a36e9188d045b3794f82c7a2d9c2237fd',1,'org::gtdev::dchat::network::ConnMgr']]],
+  ['map',['MAP',['../classcom_1_1qq_1_1tars_1_1protocol_1_1tars_1_1TarsStructBase.html#ad39e0ec3bd797c479e78678620070f1a',1,'com::qq::tars::protocol::tars::TarsStructBase']]],
+  ['max_5fstring_5flength',['MAX_STRING_LENGTH',['../classcom_1_1qq_1_1tars_1_1protocol_1_1tars_1_1TarsStructBase.html#a80e6147e19585036991150d19b9dec6a',1,'com::qq::tars::protocol::tars::TarsStructBase']]],
+  ['message',['message',['../classorg_1_1gtdev_1_1dchat_1_1network_1_1MsgPack.html#aef1f04b9b120fb452399ec999b87f820',1,'org::gtdev::dchat::network::MsgPack']]],
+  ['mreceivepackqueue',['mReceivePackQueue',['../classorg_1_1gtdev_1_1dchat_1_1network_1_1ConnMgr_1_1Connection.html#a2a0fdabb25045fdeb0d933b8e841bdbe',1,'org::gtdev::dchat::network::ConnMgr::Connection']]],
+  ['msg',['Msg',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1Msg.html',1,'org.gtdev.dchat.DChatMsg.Msg'],['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1Msg.html#a885d391543c1129c1748e3772b4dd325',1,'org.gtdev.dchat.DChatMsg.Msg.Msg()'],['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1Msg.html#a9ae32d891a50e1e794d3b816a66e69d2',1,'org.gtdev.dchat.DChatMsg.Msg.Msg(MsgHead msg_head, String msg_body)']]],
+  ['msg_2ejava',['Msg.java',['../Msg_8java.html',1,'']]],
+  ['msg_5fbody',['msg_body',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1Msg.html#a3dd3b5b311b8d4caa4d864a533aea074',1,'org::gtdev::dchat::DChatMsg::Msg']]],
+  ['msg_5fhead',['msg_head',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1Msg.html#a6161022dc8741fae07a66040f0c16b31',1,'org::gtdev::dchat::DChatMsg::Msg']]],
+  ['msg_5fseq',['msg_seq',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgHead.html#ae7c2496f25f61bfef5a9ef7653a176c4',1,'org::gtdev::dchat::DChatMsg::MsgHead']]],
+  ['msg_5ftime',['msg_time',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgHead.html#a5fdfcd122bab3f636483ebfc8a2b80db',1,'org::gtdev::dchat::DChatMsg::MsgHead']]],
+  ['msg_5ftype',['msg_type',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgHead.html#a154d56c4714741b7ba1d5fd96bac84f6',1,'org::gtdev::dchat::DChatMsg::MsgHead']]],
+  ['msghead',['MsgHead',['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgHead.html',1,'org.gtdev.dchat.DChatMsg.MsgHead'],['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgHead.html#ad1b2326fb46dc4bf5dd6684bc4b4786c',1,'org.gtdev.dchat.DChatMsg.MsgHead.MsgHead()'],['../classorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgHead.html#a307e806e8495a15d031de8d06fb5b141',1,'org.gtdev.dchat.DChatMsg.MsgHead.MsgHead(String from_uin, String to_uin, int msg_type, long msg_seq, long msg_time)']]],
+  ['msghead_2ejava',['MsgHead.java',['../MsgHead_8java.html',1,'']]],
+  ['msgnotification',['msgNotification',['../classorg_1_1gtdev_1_1dchat_1_1client_1_1MainUI.html#ac6b3f3df0712bb3a063f0a2a60ba1c9d',1,'org::gtdev::dchat::client::MainUI']]],
+  ['msgpack',['MsgPack',['../classorg_1_1gtdev_1_1dchat_1_1network_1_1MsgPack.html',1,'org.gtdev.dchat.network.MsgPack'],['../classorg_1_1gtdev_1_1dchat_1_1network_1_1MsgPack.html#a95d7930971cea1c12c04aa6bb04cf670',1,'org.gtdev.dchat.network.MsgPack.MsgPack(NetPack p, ConnMgr.Connection c)'],['../classorg_1_1gtdev_1_1dchat_1_1network_1_1MsgPack.html#a8e917f9fae8764ae618ad585a078a454',1,'org.gtdev.dchat.network.MsgPack.MsgPack(Msg m)']]],
+  ['msgpack_2ejava',['MsgPack.java',['../MsgPack_8java.html',1,'']]],
+  ['msgtype',['MsgType',['../enumorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgType.html',1,'org.gtdev.dchat.DChatMsg.MsgType'],['../enumorg_1_1gtdev_1_1dchat_1_1DChatMsg_1_1MsgType.html#a5dd23aefcf2f0f96b65eb16195a99826',1,'org.gtdev.dchat.DChatMsg.MsgType.MsgType()']]],
+  ['msgtype_2ejava',['MsgType.java',['../MsgType_8java.html',1,'']]],
+  ['mwaitflagarr',['mWaitFlagArr',['../classorg_1_1gtdev_1_1dchat_1_1network_1_1ConnMgr_1_1Connection.html#a009c22a75eef241c7288ef12950f3ae5',1,'org::gtdev::dchat::network::ConnMgr::Connection']]]
+];

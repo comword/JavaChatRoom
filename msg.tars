@@ -1,0 +1,25 @@
+module DChatMsg {
+
+    enum MsgType {
+        BROADCAST = 1,
+        STOP = 2,
+        LIST = 3,
+        KICK = 4,
+        STATS = 5,
+        LOGIN = 6
+    };
+
+    struct MsgHead {
+        1 require string from_uin;
+        2 require string to_uin;
+        3 require MsgType msg_type;
+        4 require unsigned int msg_seq;
+        5 require unsigned int msg_time;
+    };
+
+    struct Msg {
+        1 require MsgHead msg_head;
+        2 require string msg_body;
+    };
+
+};

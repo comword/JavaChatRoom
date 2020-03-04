@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="DChat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/DChat_jar</output-path>
+    <root id="archive" name="DChat.jar">
+      <element id="module-output" name="DChat" />
+    </root>
+  </artifact>
+</component>

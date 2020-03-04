@@ -1,0 +1,8 @@
+digraph "org.gtdev.dchat.server.ServerLauncher"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="org.gtdev.dchat.server.Server\lLauncher",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" defargs" ,fontname="Helvetica"];
+  Node2 [label="org.gtdev.dchat.Parameters\lParser",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classorg_1_1gtdev_1_1dchat_1_1ParametersParser.html"];
+}

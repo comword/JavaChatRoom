@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="com.qq.tars.protocol.tars.\lTarsInputStream.HeadData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classcom_1_1qq_1_1tars_1_1protocol_1_1tars_1_1TarsInputStream_1_1HeadData.html"];
+}
